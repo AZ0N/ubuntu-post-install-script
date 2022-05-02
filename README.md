@@ -1,4 +1,4 @@
-# Ubuntu Post-install Script
+# Ubuntu Post-install Scripts
 My personal post-install script for Ubuntu.
 
 (Tested on Ubuntu 22.04)
