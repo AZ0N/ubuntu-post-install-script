@@ -33,5 +33,5 @@ dconf load /org/gnome/terminal/ < gnome_terminal_settings.txt # Load settings fr
 # Wallpaper
 mkdir -p ~/Pictures/Wallpapers
 cp Mandelbulb.png ~/Pictures/Wallpapers/
-settings set org.gnome.desktop.background picture-uri "file:///home/$USER/Pictures/Wallpapers/Mandelbulb.png"
-settings set org.gnome.desktop.background picture-uri-dark "file:///home/$USER/Pictures/Wallpapers/Mandelbulb.png"
+gsettings set org.gnome.desktop.background picture-uri "file:///home/$USER/Pictures/Wallpapers/Mandelbulb.png"
+gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$USER/Pictures/Wallpapers/Mandelbulb.png"
