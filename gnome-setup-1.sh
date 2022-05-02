@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install the tools (and dependencies)
-sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-prefs curl wget jq unzip -y
+sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-prefs curl wget jq unzip fonts-hack-ttf -y
 
 # Install extensions. See https://github.com/cyfrost/install-gnome-extensions
 wget -O ./install-gnome-extensions.sh -N -q "https://raw.githubusercontent.com/cyfrost/install-gnome-extensions/master/install-gnome-extensions.sh"
