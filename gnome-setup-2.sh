@@ -29,3 +29,9 @@ gsettings set org.gnome.shell.extensions.user-theme name "Dracula"
 # Apply Gnome terminal profile
 dconf reset -f /org/gnome/terminal/ # Reset settings to default
 dconf load /org/gnome/terminal/ < gnome_terminal_settings.txt # Load settings from saved file
+
+# Wallpaper
+mkdir -p ~/Pictures/Wallpapers
+cp Mandelbulb.png ~/Pictures/Wallpapers/
+settings set org.gnome.desktop.background picture-uri "file:///home/$USER/Pictures/Wallpapers/Mandelbulb.png"
+settings set org.gnome.desktop.background picture-uri-dark "file:///home/$USER/Pictures/Wallpapers/Mandelbulb.png"
